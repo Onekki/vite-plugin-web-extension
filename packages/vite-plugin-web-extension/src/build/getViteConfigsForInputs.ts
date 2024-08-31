@@ -176,7 +176,7 @@ export function getViteConfigsForInputs(options: {
         lib: {
           name: "_",
           entry,
-          formats: ["iife"],
+          formats: ["es"],
           fileName: () => moduleId + ".js",
         },
       },
